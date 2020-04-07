@@ -2,7 +2,7 @@ defmodule NervesSystemBbb.MixProject do
   use Mix.Project
 
   @github_organization "nerves-project"
-  @app :nerves_system_bbb
+  @app :nerves_system_bbb_custom
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
